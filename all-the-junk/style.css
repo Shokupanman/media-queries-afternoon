@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body,
+html {
+  margin: 0;
+  font-family: monospace;
+}
+
+@media (max-width: 990px) {
+  body {
+    height: 300vh;
+  }
+  .naviHead {
+    background-color: #2a2a2c;
+    color: #fed136;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 60px;
+    z-index: 2;
+  }
+  .naviH1 {
+    font-size: 30px;
+    font-family: "Kaushan Script";
+    color: #fed136;
+    margin: 0 1rem;
+  }
+  .naviUl {
+    display: none;
+  }
+  .fa-bars {
+    display: flex;
+    background-color: #fed136;
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    color: whitesmoke;
+    font-size: 20px;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonDude {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mastHead {
+    display: flex;
+    width: auto;
+    height: 832px;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-size: 890px 832px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .mastHeader {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  .mastHeadH1 {
+    font-size: 65px;
+    color: white;
+  }
+
+  .mastButton {
+    border-radius: 10%;
+    width: 200px;
+    height: 70px;
+    background-color: #fed136;
+    font-size: 18px;
+    color: white;
+  }
+
+  .services {
+    display: flex;
+    width: auto;
+    height: 832px;
+    justify-content: center;
+  }
+  .servicesHeader {
+  }
+}
